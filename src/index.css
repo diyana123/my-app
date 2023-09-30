@@ -2,11 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 .hover-zoom {
     transition: transform 0.2s ease-in-out;
   }
   
   .hover-zoom:hover {
-    transform: scale(1); /* Adjust the scale factor as needed */
-  }
+    transform: scale(1); 
+  }  */
+
+.background{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -259px;
+  height: 300px;
+}
