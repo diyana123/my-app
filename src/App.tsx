@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../src/Components/styles/main.scss'
 import './App.css';
 import NavBar from './Components/NavBar';
 import circles from './assets/circles.png';
@@ -15,11 +15,16 @@ function App() {
   return (
     <div>
       {/* <img src={circles}/> */}
+      <div className='circle-background'>
       <NavBar/>
       <Hero/>
+      </div>
+     
       <Card data={cardData} />
+      <div className='circle-background-left'>
       <AboutSection/>
       <Reveiws data={ReveiwData}/>
+      </div>
  
     </div>
   );

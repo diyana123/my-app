@@ -1,6 +1,7 @@
 import React from "react";
 import navbarImg from "../../src/assets/navbarImg.png";
 import ReveiwItems from "./ReveiwItems";
+import '../styles/reveiws.scss'
 
 type ReveiwProps = {
   data: {
@@ -14,7 +15,7 @@ type ReveiwProps = {
 const Reveiws = ({ data }: ReveiwProps) => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container mx-auto">
         <div className="flex flex-wrap -m-4">
           {data.map((item, index) => (
             <ReveiwItems
@@ -29,20 +30,15 @@ const Reveiws = ({ data }: ReveiwProps) => {
       </div>
       <div className=""></div>
 
-      <div className="inset-x-0 flex justify-center background">
-       
-       
-      
-
-
-      
-      </div>
+      <div className="inset-x-0 flex justify-center background"></div>
       <div className="text-center ">
-            <div className="text-[24px] leading-3 font-normal mb-7 text-black">What are you waiting for ? </div>
-            <button className="bg-btn-pink text-white py-3 px-6 mb-20 border border-btn-pink rounded-3xl">
-              Load More
-            </button>
-          </div>
+        <div className="text-[24px] leading-3 font-normal mb-7 text-black">
+          What are you waiting for ?{" "}
+        </div>
+        <button className="bg-btn-pink text-white py-3 px-6 mb-20 border border-btn-pink rounded-3xl">
+          Load More
+        </button>
+      </div>
     </section>
   );
 };

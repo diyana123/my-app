@@ -1,0 +1,19 @@
+.circle-background {
+    background-image: url(../../../src/assets/circles.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+  }
+
+
+  .circle-background-left {
+    background-image: url(../../../src/assets/leftCircle.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left center;
+
+    @media (max-width: 768px) { 
+        background-image: url(../../../src/assets/circles.png);
+        background-position: right center;
+      }
+  }

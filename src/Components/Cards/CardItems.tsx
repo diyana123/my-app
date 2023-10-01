@@ -13,9 +13,9 @@ const CardItems = ({ image, title, subTitle, img1, img2 }: cardItemsProps) => {
   return (
     <>
       <div className="p-4 lg:w-1/3">
-        <div className="border-dashed border-2 mx-auto p-2 bg-white relative max-w-sm rounded-2xl overflow-hidden max-w-xs transition duration-300 ease-in-out hover:scale-110">
-            <div className="hover-zoom">
-            <img className="rounded-xl" src={image} alt={title} />
+        <div className="border-dashed border-2 mx-auto p-2 bg-white relative max-w-sm rounded-2xl max-w-xs transition duration-2000 ease-in-out hover:scale-105">
+            <div className="">
+            <img className="rounded-xl  " src={image} alt={title} />
             </div>
           
           <div className="flex justify-between items-center">
