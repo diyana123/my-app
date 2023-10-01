@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         'btn-pink': '#EF5DA8',
       },
+      fontFamily : {
+        'main-font' : ['poppins', 'sans-serif'],
+      }
     },
     screens: {
       '3xs': '320px',
