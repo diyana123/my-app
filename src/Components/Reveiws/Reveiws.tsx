@@ -1,5 +1,5 @@
 import React from "react";
-import navbarImg from "../../src/assets/navbarImg.png";
+
 import ReveiwItems from "./ReveiwItems";
 import '../styles/reveiws.scss'
 
