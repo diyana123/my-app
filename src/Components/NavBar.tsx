@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Transition } from "@headlessui/react";
+
 import navbarImg from "../../src/assets/navbarImg.png";
 import github from "../../src/assets/github.png";
 import instagram from "../../src/assets/instagram.png";
